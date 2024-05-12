@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vite + React</title>
+</head>
+
+<body>
+  <div id="root">
+    <div id="nameColumn">
+      <h2>Name Column</h2>
+      <ul id="nameList"></ul>
+      <input type="text" id="nameInput" placeholder="Enter Name" />
+      <button onclick="addName()">Add Name</button>
+      <br />
+      <input type="text" id="nameToUpdate" placeholder="Enter New Name" />
+      <button onclick="updateName()">Update Name</button>
+    </div>
+    <div id="idColumn">
+      <h2>ID Column</h2>
+      <ul id="idList"></ul>
+      <input type="text" id="idInput" placeholder="Enter ID" />
+      <button onclick="addId()">Add ID</button>
+      <br />
+      <input type="text" id="idToUpdate" placeholder="Enter New ID" />
+      <button onclick="updateId()">Update ID</button>
+    </div>
+  </div>
+  <script type="module" src="/src/main.jsx"></script>
+</body>
+
+</html>
