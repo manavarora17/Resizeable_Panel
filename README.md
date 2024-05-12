@@ -6,4 +6,5 @@ Resizable Panels: Users can resize the components by dragging them from any side
 API Integration: Provides APIs for adding and editing data in the components, with functionality to add new entries or update existing ones.
 Count Endpoint: Includes an API endpoint to retrieve the count of times the add and update APIs have been called.
 SSMS SNAPSHOT:-
-<img src ="C:\Resizable-Panels\src\images\ssms_db.png"></img>
+
+![Image Alt Text](src/ssms_db.png)
