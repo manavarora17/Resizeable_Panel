@@ -7,4 +7,4 @@ API Integration: Provides APIs for adding and editing data in the components, wi
 Count Endpoint: Includes an API endpoint to retrieve the count of times the add and update APIs have been called.
 SSMS SNAPSHOT:-
 
-![Image Alt Text](src/ssms_db.png)
+![Image Alt Text](src/images/ssms_db.png)
